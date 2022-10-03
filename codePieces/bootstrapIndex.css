@@ -1,0 +1,48 @@
+/*default background/foreground colors for top/bottom bars*/
+div#nav, div#footer{
+  background-color:lightblue;
+  color:black;
+}
+
+/*corners for nav bar and links*/
+div#nav, div#nav li {
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+/*page navigation links*/
+div#nav ul li{
+  font-family:Shift;
+  text-transform: uppercase;
+}
+
+/*logo icon*/
+div#nav img{
+  display:block;
+  padding:10px 10px 10px 0px;
+}
+
+/*content container*/
+body div.container-fluid{
+  padding:10px;
+}
+
+/*content block*/
+div#content {
+  font-family:Verdana;
+  border-radius:5px;
+}
+
+/*homepage css rules*/
+div#content img#homepageLogo {
+  width:280px;
+  height:280px;
+  border:2px solid black;
+}
+
+/*footer*/
+div#footer {
+  text-align:right;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}

@@ -1,0 +1,89 @@
+/*base margin and padding*/
+html, div#nav ul, div#nav ul li {
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  padding:0px;
+}
+
+html {
+  background-color:lightgrey;
+}
+
+body {
+  width:800px;
+  margin:auto;
+}
+
+/*default background/foreground colors for top/bottom bars*/
+div#nav, div#footer{
+  background-color:black;
+  color:white;
+}
+
+/*corners for nav bar and links*/
+div#nav, div#nav li {
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+/*page navigation links*/
+div#nav ul li{
+  list-style:none;
+  display:inline;
+  font-family:Verdana;
+  padding:0px 10px;
+}
+div#nav ul li a {
+  color:white;
+  text-decoration: none;
+}
+
+/*content block*/
+div#content {
+  background-color:white;
+  font-family:Verdana;
+  border-radius:5px;
+  padding:10px;
+}
+
+/*defintion list term tags*/
+div#content dt {
+  font-weight:bold;
+}
+
+div#content code {
+  background-color:rgb(247,216,157);
+}
+
+/*homepage css rules*/
+div#content img#homepageLogo {
+  width:280px;
+  height:280px;
+  display:block;
+  border:2px solid black;
+  float:left;
+}
+div#content #content_text {
+  padding:85px 0px;
+  position:relative;
+  text-align:center;
+}
+
+/*ensure labels have block display so inputs are after label*/
+div#content form label, div#content form textArea{
+  display:block;
+}
+
+/*footer*/
+div#footer {
+  text-align:right;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+div#footer p {
+  padding:0px 10px;
+}
+#changeLogLink {
+  float:left;
+}
